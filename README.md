@@ -20,22 +20,22 @@ cd data-storage-lab-3
 
 #### Модель 3NF
 
-- **Students** (Студенты)
+**Students** (Студенты)
 - student_id (PK)
 - name
 - email
-- **Subjects** (Предметы)
+**Subjects** (Предметы)
 - subject_id (PK)
 - subject_name
-- **Exams** (Экзамены)
+**Exams** (Экзамены)
 - exam_id (PK)
 - subject_id (FK)
 - exam_date
-- **Preparation_Tips** (Советы по подготовке)
+**Preparation_Tips** (Советы по подготовке)
 - tip_id (PK)
 - exam_id (FK)
 - tip_description
-- **Grades** (Оценки)
+**Grades** (Оценки)
 - grade_id (PK)
 - student_id (FK)
 - exam_id (FK)
@@ -56,11 +56,13 @@ cd data-storage-lab-3
 - exam_id (PK)
 - load_date
 - record_source
+
 Связи:
 - **Link_Student_Exam**
 - student_id (FK)
 - exam_id (FK)
 - load_date
+
 Сателлиты:
 - **Sat_Students**
 - student_id (FK)
