@@ -11,7 +11,7 @@
 
 ```bash
 git clone https://github.com/C-PLUS-PLUS-GENIUS/data-storage-lab-3.git
-cd bnd-ds-cv-case
+cd data-storage-lab-3
 ```
 
 ## Содержание
