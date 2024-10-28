@@ -24,6 +24,7 @@ cd data-storage-lab-3
 - student_id (PK)
 - name
 - email
+
 **Subjects** (Предметы)
 - subject_id (PK)
 - subject_name
@@ -31,10 +32,12 @@ cd data-storage-lab-3
 - exam_id (PK)
 - subject_id (FK)
 - exam_date
+
 **Preparation_Tips** (Советы по подготовке)
 - tip_id (PK)
 - exam_id (FK)
 - tip_description
+
 **Grades** (Оценки)
 - grade_id (PK)
 - student_id (FK)
